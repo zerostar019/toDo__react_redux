@@ -1,0 +1,6 @@
+.div {
+    width: 100%;
+    height: 40vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(124deg, rgba(2,0,36,0.8064516129032258) 0%, rgba(85,64,109,1) 35%, rgba(0,214,255,0.5698924731182795) 100%);
+}

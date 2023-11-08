@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root {
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(106, 103, 103);
+}
+
+.input_block {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    z-index: 10;
+}
+

@@ -1,0 +1,121 @@
+.task {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+    font-size: 16pt;
+    color: black;
+    opacity: 0.6;
+}
+
+.task1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+}
+
+.task2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.editBtn {
+    background: url('../../../public/edit.png') no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+
+.deleteBtn {
+    background: url('../../../public/delete.png') no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+
+.deleteBtn:hover {
+    transform: scale(1.2);
+}
+
+.editBtn:hover {
+    transform: scale(1.2)
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.input:disabled {
+    border: none;
+    font-size: 14pt;
+    color: black;
+    text-transform: capitalize;
+    overflow-x: visible;
+}
+
+.input {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    font-size: 14pt;
+    color: black;
+    text-transform: capitalize;
+    padding: 10px;
+    overflow-x: visible;
+    width: 35vw;
+}
+
+.ready {
+    text-decoration: line-through;
+}
+
+
+.permit {
+    background: url('../../../public/permit.png') no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in;   
+}
+
+.permit:hover {
+    transform: scale(1.2);
+}
+
+
+@media only screen and (max-width: 450px) {
+    .input:disabled {
+        border: none;
+        font-size: 10pt;
+        color: black;
+        text-transform: capitalize;
+        overflow-x: visible;
+    }
+    .input {
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        font-size: 10pt;
+        color: black;
+        text-transform: capitalize;
+        padding: 10px;
+        overflow-x: visible;
+        width: 35vw;
+    }
+}
